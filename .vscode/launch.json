@@ -1,0 +1,18 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/attacker.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args" : ["--interface", "eth1", "--attacker_mac","fc:34:97:a9:25:08","--gateway_mac", "3c:bd:c5:36:73:b9","--target_mac","22:07:c3:e8:af:e4","--gateway_ip","192.168.1.1", "--target_ip", "192.168.1.188"],
+            "sudo": true,
+        }
+    ]
+}
